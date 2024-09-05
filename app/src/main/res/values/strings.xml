@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Actividad1.2</string>
+    <string name="titulo">Ingrese su nombre</string>
+    <string name="ingreso_nombre">Nombre</string>
+    <string name="ingreso_contra">Contrasena</string>
+    <string name="enviar_datos">Enviar</string>
+
+
+    <string name="bienvenido">Bienvenido</string>
+</resources>
