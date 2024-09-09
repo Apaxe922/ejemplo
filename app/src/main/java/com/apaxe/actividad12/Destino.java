@@ -5,15 +5,15 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.widget.Toast;
-
-public class MainActivity2 extends AppCompatActivity {
+//Valentina Campo Giraldo
+public class Destino extends AppCompatActivity {
 
     private TextView textViewName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.destino);
 
         textViewName = findViewById(R.id.textViewName);
 
@@ -22,6 +22,8 @@ public class MainActivity2 extends AppCompatActivity {
         String password = intent.getStringExtra("EXTRA_PASSWORD");
 
         textViewName.setText(name);
-        Toast.makeText(MainActivity2.this, "Contraseña: " + password, Toast.LENGTH_SHORT).show();
+        Toast.makeText(Destino.this,
+                "Contraseña: " + password, Toast.LENGTH_SHORT).show();
     }
 }
+

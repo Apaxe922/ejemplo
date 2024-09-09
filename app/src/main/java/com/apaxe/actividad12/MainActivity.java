@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
-
+//Valentina Campo Giraldo
 public class MainActivity extends AppCompatActivity {
 
     private EditText editTextName, editTextContra;
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String name = editTextName.getText().toString();
                 String password = editTextContra.getText().toString();
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, Destino.class);
                 intent.putExtra("EXTRA_NAME", name);
                 intent.putExtra("EXTRA_PASSWORD", password);
                 startActivity(intent);
@@ -34,3 +34,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
+
+
